@@ -4,7 +4,6 @@ class MonkeysController < ApplicationController
   # GET /monkeys
   def index
     @monkeys = Monkey.all
-
     render json: @monkeys
   end
 
